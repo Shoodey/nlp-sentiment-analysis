@@ -1,4 +1,5 @@
 class Config:
+
     # Number of reviews to test upon, 25.000 being the limit
     # this value will be divided between positive and negative data
     # i.e. training_set_size = 8000 means 4000 positive reviews and 4000 negative ones

@@ -2,6 +2,7 @@ from nltk import ClassifierI
 from statistics import mode
 from collections import Counter
 
+
 class VoteClassifier(ClassifierI):
 
     def __init__(self, *classifiers):
